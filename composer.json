@@ -1,0 +1,18 @@
+{
+   "name": "VilledeMontreal/plugin-etl",
+   "require": {
+        "league/csv": "^9.0",
+        "VilleDeMontreal/retl": "dev-master"
+    },
+    "config": {
+        "platform": {
+            "php": "7.1"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/loicbenoit/retl"
+        }
+    ]
+}
